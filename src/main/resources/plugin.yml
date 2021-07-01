@@ -1,0 +1,4 @@
+name: SilkTouchAmethyst
+version: ${project.version}
+main: me.polishkrowa.silktouchamethyst.SilkTouchAmethyst
+api-version: 1.17
