@@ -26,6 +26,8 @@ public final class SilkTouchAmethyst extends JavaPlugin implements Listener {
     public static void onBlockBreak(BlockBreakEvent event) {
         if (!event.getBlock().getType().equals(Material.BUDDING_AMETHYST))
             return;
+        if (!event.getPlayer().hasPermission("silktouchamethyst.use"))
+            return;
         if (event.getPlayer().getGameMode().equals(GameMode.CREATIVE))
             return;
         if (event.getPlayer().getInventory().getItemInMainHand().getType().equals(Material.AIR))

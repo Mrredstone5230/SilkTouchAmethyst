@@ -2,3 +2,8 @@ name: SilkTouchAmethyst
 version: ${project.version}
 main: me.polishkrowa.silktouchamethyst.SilkTouchAmethyst
 api-version: 1.17
+
+permissions:
+  silktouchamethyst.use:
+    default: op
+    description: "This permission is required to silk touch mine budded amethyst"
