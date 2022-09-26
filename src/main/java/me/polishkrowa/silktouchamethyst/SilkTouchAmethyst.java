@@ -6,6 +6,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
@@ -22,7 +23,7 @@ public final class SilkTouchAmethyst extends JavaPlugin implements Listener {
     @Override
     public void onDisable() { }
 
-    @EventHandler
+    @EventHandler(priority = EventPriority.LOWEST)
     public static void onBlockBreak(BlockBreakEvent event) {
         if (!event.getBlock().getType().equals(Material.BUDDING_AMETHYST))
             return;
