@@ -23,7 +23,7 @@ public final class SilkTouchAmethyst extends JavaPlugin implements Listener {
     @Override
     public void onDisable() { }
 
-    @EventHandler(priority = EventPriority.LOWEST)
+    @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     public static void onBlockBreak(BlockBreakEvent event) {
         if (!event.getBlock().getType().equals(Material.BUDDING_AMETHYST))
             return;
