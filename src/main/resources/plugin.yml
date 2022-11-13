@@ -5,5 +5,5 @@ api-version: 1.17
 
 permissions:
   silktouchamethyst.use:
-    default: op
+    default: true
     description: "This permission is required to silk touch mine budded amethyst"
