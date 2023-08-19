@@ -1,3 +1,6 @@
 # SilkTouchAmethyst
 This plugin allows budding amethyst to drop with a silk touch item.
-**REQUIRES silktouchamethyst.use permission to drop. Use v1.0 if you do not want this feature.**
+
+The *silktouchamethyst.use* permission is required by default to mine a budded amethyst block with silk touch. If you want to disable this feature, set "usePermission" to "false" in the config file.
+
+Also, the plugin adds a warning message when breaking a budded amethyst block that WONT drop. You can change the message in the config file.
