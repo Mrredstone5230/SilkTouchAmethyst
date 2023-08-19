@@ -1,4 +1,4 @@
 #Force people to have the "silktouchamethyst.use" permission to drop budded amethyst with silk touch. "true" or "false".
 usePermission: true
 #The message sent when a player tries to break a budded amethyst without silk touch/the permission
-breakWarning: "§cBreaking this block again with that item and/or your permissions won't drop the budded amethyst! You've been warned."
+breakWarning: "&cBreaking this block again with that item and/or your permissions won't drop the budded amethyst! You've been warned."
